@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #4099FF;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+main {
+	text-align: center;
+	max-width: 500px;
+	margin: 100px auto;
+	padding: 10px;
+	height: 500px;
+}
+
+button {
+	margin-top: 100px;
+	padding: 2px;
+	width: 300px;
+	background: transparent;
+	border: none;
+	box-shadow: 2px 2px 2px 2px #000;
+	color: #fff;
+	font-size: 20px;
+	font-family: cursive;
+}
+
+button:hover {
+	background: #f8f80e;
+	color: #4099FF;
+	cursor: pointer;
+}
+
+ .tweet {
+	display: inline-block;
+	margin-top: 30px;
+	padding: 5px;
+	box-shadow: 2px 2px 2px 2px #000;
+	width: 300px;
+	color: #fff;
+}
+.tweet:hover {
+	background: #f8f80e;
+}
